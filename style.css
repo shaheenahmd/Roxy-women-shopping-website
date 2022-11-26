@@ -198,6 +198,31 @@ font-weight: 700
 }
 
 
+/* footer */
+.footer{
+    background-color: #222;
+}
+
+
+
+@media screen and (max-width:767px){
+    .carousel-item{
+        min-height: 200vh;
+    }
+
+    .offer-banner h3 {
+        font-size: var(--medium-fonts);
+    }
+    .offer-banner h1 {
+        position: absolute;
+        font-size: 1.6rem;
+        font-weight: 700;
+        top: 240px;
+    }
+    
+}
+
+
 
 
 
