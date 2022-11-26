@@ -222,6 +222,20 @@ font-weight: 700
         font-weight: 700;
         top: 240px;
     }
+
+    #blog{
+        padding-bottom: 0rem!important;
+    }
+    #about h2{
+        font-size: 1.8rem!important;
+        margin-bottom:2rem;
+    }
+    /* .footer .navbar-brand{
+        margin-left: 1rem;
+    } */
+    .footer .brandetail{
+        margin-left: 1rem;
+    }
     
 }
 
