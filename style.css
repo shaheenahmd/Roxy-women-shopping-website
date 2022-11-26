@@ -269,7 +269,7 @@ font-weight: 700
     
 
     .carousel-item {
-        height: 70vh;
+        height: 50vh;
         min-height: 400px;
         background-position: top;
         background-size: cover;
