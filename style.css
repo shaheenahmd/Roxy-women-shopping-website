@@ -13,14 +13,14 @@ html{
     --bigfont:3.6rem;
     --medium-fonts:2.5rem;
     --p-font:1.1rem;
-    --pink:#e5345b;
-
+    --maincolor:#73a942;
+   
 }
 p{
     color: #717171;
 }
 .bg-pink{
-    background-color: var(--pink)!important;
+    background-color: var(--maincolor)!important;
 }
 
 .navbar{
@@ -29,14 +29,14 @@ p{
 }
 .navbar-brand{
     font-size: 1.9rem !important;
-    color: var(--pink) !important;
+    color: var(--maincolor) !important;
     font-weight: 700;
 }
 .navbar span{
     font-size: 1.5rem;
 }
 .nav-item .nav-link:hover{
-    color: var(--pink)!important;
+    color: var(--maincolor)!important;
 }
 .header{
     height: 110vh;
@@ -52,7 +52,7 @@ p{
     border-radius: 15px;
 }
 .header .btn:hover{
-    background-color: var(--pink) !important;
+    background-color: var(--maincolor)!important;
     color: #fff;
     transition: 0.3s ease;
 }
@@ -93,11 +93,11 @@ font-weight: 700
     margin: auto;
     color: #fff;
     text-transform: capitalize!important;
-    line-height: 2;
+    line-height: 1;
 }
 
 .carousel-caption a{
-    background:  var(--pink);
+    background:  var(--maincolor);
     padding: 4px 30px;
     border-radius: 10px;
     color: #fff;
@@ -120,27 +120,26 @@ font-weight: 700
     content: "";
     width: 4px;
     height: 35px;
-    background-color: var(--pink);
+    background-color: var(--maincolor);
     margin-left: -10px;
 }
 
 
 
 #collection .btn{
-    /* background-color:var(--pink); */
+    /* background-color:var(--maincolor); */
     border: 1px solid #717171;
     border-radius: 18px;
 
     
 }
 #collection .btn:hover{
-    background-color: var(--pink);
-    
+    background-color: var(--maincolor);
     color: #fff;
     transition: 0.3s ease;
 }
 #collection .active-filter-btn{
-    background-color: var(--pink) !important;
+    background-color: var(--maincolor) !important;
 }
 
 
@@ -159,7 +158,7 @@ font-weight: 700
     font-size: 8px;
     height: 20px;
     color: #fff;
-    background-color: var(--pink);
+    background-color: var(--maincolor);
     border-radius: 25px;
     cursor: pointer;
 
@@ -224,7 +223,7 @@ font-weight: 700
    padding: 3px 20px;
 }
 #blog .btn:hover{
-    background-color: var(--pink);
+    background-color: var(--maincolor);
     color: white;
     transition: 0.3s ease;
 }
