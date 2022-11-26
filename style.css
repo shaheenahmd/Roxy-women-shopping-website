@@ -49,7 +49,7 @@ p{
 .header .btn{
     align-items: center;
     padding: 4px 25px;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 .header .btn:hover{
     background-color: var(--pink) !important;
@@ -70,17 +70,46 @@ font-weight: 700
 
 /* carousal----------------------------------------------------- */
 .carousel-item{
-    /* position: relative!important; */
     height: 100vh;
-    min-height: 90vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+ 
+
 }
 .carousel-caption{
+    bottom:300px;
 }
-.carousel-caption h1{
+.carousel-caption h5{
     font-size: 4rem;
     font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 1;
 }
-   
+.carousel-caption p{
+    font-size: 28px;
+    font-weight: 500;
+    width: 60%;
+    margin: auto;
+    color: #fff;
+    text-transform: capitalize!important;
+    line-height: 2;
+}
+
+.carousel-caption a{
+    background:  var(--pink);
+    padding: 4px 30px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none!important;
+    line-height: 5;
+}
+.carousel-caption a:hover{
+    color: #fff;
+    background-color:#e5345b;
+}
+
+
 
 /* colllection section ----------------------------------*/
 .collection .container{
@@ -207,11 +236,9 @@ font-weight: 700
 }
 
 
-
+/* responsiveness------------------------------- */
 @media screen and (max-width:767px){
-    .carousel-item{
-        min-height: 200vh;
-    }
+   
 
     .offer-banner h3 {
         font-size: var(--medium-fonts);
@@ -236,8 +263,37 @@ font-weight: 700
     .footer .brandetail{
         margin-left: 1rem;
     }
+
+    .carousel-item .w-100{
+        height: 50vh;
+    }
+    
+
+    .carousel-item {
+        height: 40vh;
+        min-height: 450px;
+        background: no-repeat scroll;
+        background-position: top;
+        background-size: cover;
+    }
+}
+
+
+
+@media screen and (max-width:991px) {
+    .carousel-item .w-100{
+        height: 100vh;
+    }
     
 }
+
+@media screen and (max-width:1500px) {
+    .carousel-item .w-100{
+        height: 100vh;
+    }
+    
+}
+
 
 
 
