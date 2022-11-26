@@ -16,6 +16,9 @@ html{
     --pink:#e5345b;
 
 }
+p{
+    color: #717171;
+}
 .bg-pink{
     background-color: var(--pink)!important;
 }
