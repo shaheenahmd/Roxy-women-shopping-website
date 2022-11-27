@@ -278,6 +278,7 @@ font-family: 'PT Serif', serif!important;
     }
     .carousel-inner::before{
         height: 70vh;
+        display: none;
     }
        
 
@@ -288,7 +289,7 @@ font-family: 'PT Serif', serif!important;
 
     }
     .carousel-caption h5{
-        font-size: 2.5rem;
+        font-size: 2.1rem;
         font-family: 'PT Serif', serif;
         font-weight: 800;
         width: 100%;
@@ -310,7 +311,7 @@ font-family: 'PT Serif', serif!important;
     }
 
     #collection {
-        margin-top: -4rem!important;
+        margin-top: -200px!important;
     }
 
 
