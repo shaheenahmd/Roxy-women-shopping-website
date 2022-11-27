@@ -284,12 +284,12 @@ font-family: 'PT Serif', serif!important;
 
     .carousel-caption{
         text-align: left !important;
-        bottom: 350px!important;
+        bottom: 300px!important;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
     }
     .carousel-caption h5{
-        font-size: 2.1rem;
+        font-size: 2rem;
         font-family: 'Secular One', serif;
         font-weight: 800;
         width: 100%;
