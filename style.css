@@ -259,6 +259,7 @@ font-weight: 700
 
 /* responsiveness------------------------------- */
 @media screen and (max-width:767px){
+  
     #navbarNav{
         text-align: left !important;
     }
