@@ -278,12 +278,14 @@ font-weight: 700
        
 
     .carousel-caption{
-        bottom: 300px!important;
+        bottom: 350px!important;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
     }
     .carousel-caption h5{
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: 800;
-        min-width: 300px;
+        width: 100%;
        
     }
     .carousel-caption p {
